@@ -1,24 +1,15 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import QuestionnaireCard from "./components/QuestionnaireCard";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="relative py-5 px-5 flex flex-col justify-center items-center h-screen bg-pink-300">
+      <div className="flex flex-col justify-center items-center">
+        <QuestionnaireCard></QuestionnaireCard>
+      </div>
+      <div className="z-0 absolute bottom-0">
+        <img src={process.env.PUBLIC_URL + "/cows.png"} alt="Cows" />
+      </div>
     </div>
   );
 }
