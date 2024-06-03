@@ -15,7 +15,7 @@ const AnswersComponent: React.FC<AnswersComponentProps> = ({
         {answers.map((answer, index) => (
           <li
             key={index}
-            className="cursor-pointer p-2 my-5 bg-pink-200 hover:bg-pink-300 hover:font-bold rounded-lg shadow-md"
+            className="cursor-pointer p-2 my-5 bg-pink-200 rounded-lg shadow-md"
             onClick={() => onAnswer(answer)}
           >
             {answer}
