@@ -69,7 +69,7 @@ const QuestionnaireCard = () => {
         <h1 className="text-3xl text-center">
           Thank you for completeing my questionnaire
         </h1>
-        <h2 className="font-bold underline mb-20 mt-5 text-center">
+        <h2 className="font-bold underline mb-10 text-center">
           Please screenshot this page
         </h2>
         <div className="flex flex-col items-center justify-center bg-emerald-200 p-5 rounded-lg">
