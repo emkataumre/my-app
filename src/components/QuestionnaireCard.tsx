@@ -48,11 +48,11 @@ const QuestionnaireCard = () => {
         if (answer === "have a picnic at the christiania lakes") {
           return "we should have a picnic at the christiania lakes,";
         } else if (answer === "go to reffen") {
-          return "we should go to reffen and enjoy some nice food by the water,";
+          return "we could go to reffen and enjoy some nice food by the water,";
         } else if (answer === "go to the deerpark") {
-          return "we take a walk in the deerpark and look at the deer,";
+          return "we could take a walk in the deerpark and look at the deer,";
         } else if (answer === "go thrifting") {
-          return "we should go thrifting together and see what we can find,";
+          return "we could go thrifting together and see what we can find,";
         } else {
           return "";
         }
@@ -76,7 +76,7 @@ const QuestionnaireCard = () => {
           <div className="mb-4 text-xl">
             {"would you like to go on a date on " +
               selectedAnswers[0] +
-              "." +
+              "?" +
               " " +
               finalAnswer.join(" ")}
           </div>
